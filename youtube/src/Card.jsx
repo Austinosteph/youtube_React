@@ -21,30 +21,31 @@ function Card() {
 			icon: '../src/assets/img3.jpg',
 			views: '302K views ▪ 2 years ago',
 		},
+		{
+			id: 4,
+			image: '../src/assets/img3.jpg',
+			name: ' Osuporu is out! | THE PEOPLE’S LAWYER | Layi WasabiAWARD WINNING ARIARIA PRAISE ⁠@femi_lazarus @thelightnationgloba MStixx',
+			icon: '../src/assets/img3.jpg',
+			views: '302K views ▪ 2 years ago',
+		},
+		{
+			id: 5,
+			image: '../src/assets/img3.jpg',
+			name: ' Osuporu is out! | THE PEOPLE’S LAWYER | Layi WasabiAWARD WINNING ARIARIA PRAISE ⁠@femi_lazarus @thelightnationgloba MStixx',
+			icon: '../src/assets/img3.jpg',
+			views: '302K views ▪ 2 years ago',
+		},
+		{
+			id: 6,
+			image: '../src/assets/img3.jpg',
+			name: ' Osuporu is out! | THE PEOPLE’S LAWYER | Layi WasabiAWARD WINNING ARIARIA PRAISE ⁠@femi_lazarus @thelightnationgloba MStixx',
+			icon: '../src/assets/img3.jpg',
+			views: '302K views ▪ 2 years ago',
+		},
 	];
 	return (
 		<div className="space-y-8">
-			<div className="flex gap-4">
-				{videos.map((video, id) => (
-					<div key={id}>
-						<div className="space-y-2 ">
-							<img
-								className="rounded-xl h-auto w-screen"
-								src={video.image}
-								alt={video.name}
-							/>
-							<div className="flex space-x-2">
-								<img className="rounded-full w-10 h-10" src={video.icon} />
-								<div>
-									<p className="font-semibold text-sm">{video.name}</p>
-									<p className="font-normal text-sm">{video.views}</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				))}
-			</div>
-			<div className="flex gap-4">
+			<div className="grid lg:grid-cols-3 grid-cols-2  gap-4">
 				{videos.map((video, id) => (
 					<div key={id}>
 						<div className="space-y-2 ">
